@@ -16,6 +16,11 @@ using namespace std;
 
 EDAoogleHttpRequestHandler::EDAoogleHttpRequestHandler(string homePath) : ServeHttpRequestHandler(homePath)
 {
+    // Recepcion al path de triple w.
+    // Iteracion a lo largo de la carpeta wiki
+    // Separacion de TEXTO necesario
+    // Llenado de "indices" para tabla SQL.
+    // 
 }
 
 bool EDAoogleHttpRequestHandler::handleRequest(string url,

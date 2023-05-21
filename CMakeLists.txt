@@ -11,6 +11,8 @@ add_executable(edahttpd main.cpp CommandLineParser.cpp HttpServer.cpp ServeHttpR
 # libmicrohttps
 find_path(MICROHTTPD_INCLUDE_PATHS NAMES microhttpd.h)
 find_library(MICROHTTPD_LIBRARIES NAMES microhttpd libmicrohttpd libmicrohttpd-dll)
+find_package(unofficial-sqlite3 CONFIG REQUIRED)
+target_link_libraries(edahttpd PRIVATE unofficial::sqlite3::sqlite3)
 target_include_directories(edahttpd PRIVATE ${MICROHTTPD_INCLUDE_PATHS})
 target_link_libraries(edahttpd PRIVATE ${MICROHTTPD_LIBRARIES})
 

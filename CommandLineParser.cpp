@@ -14,7 +14,7 @@ using namespace std;
 
 CommandLineParser::CommandLineParser(int argc, const char *argv[])
 {
-    arguments.assign(argv + 1, argv + argc);
+    arguments.assign(argv + 1, argv + argc);    //
 }
 
 bool CommandLineParser::hasOption(const string &name)

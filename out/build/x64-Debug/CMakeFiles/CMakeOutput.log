@@ -21,7 +21,7 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
 
-The C compiler identification is MSVC, found in "C:/Users/santi/OneDrive/Escritorio/4. EDAoogle - Starter Code/out/build/x64-Debug/CMakeFiles/3.25.1-msvc1/CompilerIdC/CMakeCCompilerId.exe"
+The C compiler identification is MSVC, found in "C:/Users/santi/OneDrive/Escritorio/Level4-EDAoogle/out/build/x64-Debug/CMakeFiles/3.25.1-msvc1/CompilerIdC/CMakeCCompilerId.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/bin/Hostx64/x64/cl.exe 
@@ -45,21 +45,21 @@ Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" p
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
 
-The CXX compiler identification is MSVC, found in "C:/Users/santi/OneDrive/Escritorio/4. EDAoogle - Starter Code/out/build/x64-Debug/CMakeFiles/3.25.1-msvc1/CompilerIdCXX/CMakeCXXCompilerId.exe"
+The CXX compiler identification is MSVC, found in "C:/Users/santi/OneDrive/Escritorio/Level4-EDAoogle/out/build/x64-Debug/CMakeFiles/3.25.1-msvc1/CompilerIdCXX/CMakeCXXCompilerId.exe"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/santi/OneDrive/Escritorio/4. EDAoogle - Starter Code/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-5y4gzz
+Change Dir: C:/Users/santi/OneDrive/Escritorio/Level4-EDAoogle/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-dnedq0
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_80e54 && [1/2] Building C object CMakeFiles\cmTC_80e54.dir\CMakeCCompilerABI.c.obj
-[2/2] Linking C executable cmTC_80e54.exe
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_33f29 && [1/2] Building C object CMakeFiles\cmTC_33f29.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_33f29.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/santi/OneDrive/Escritorio/4. EDAoogle - Starter Code/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-iix5rz
+Change Dir: C:/Users/santi/OneDrive/Escritorio/Level4-EDAoogle/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-l5zq31
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_5befb && [1/2] Building CXX object CMakeFiles\cmTC_5befb.dir\CMakeCXXCompilerABI.cpp.obj
-[2/2] Linking CXX executable cmTC_5befb.exe
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_36847 && [1/2] Building CXX object CMakeFiles\cmTC_36847.dir\CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_36847.exe
 
 
 

@@ -1,3 +1,3 @@
-C:/Users/santi/OneDrive/Escritorio/4. EDAoogle - Starter Code/out/build/x64-Debug/CMakeFiles/edahttpd.dir
-C:/Users/santi/OneDrive/Escritorio/4. EDAoogle - Starter Code/out/build/x64-Debug/CMakeFiles/edit_cache.dir
-C:/Users/santi/OneDrive/Escritorio/4. EDAoogle - Starter Code/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/santi/OneDrive/Escritorio/Level4-EDAoogle/out/build/x64-Debug/CMakeFiles/edahttpd.dir
+C:/Users/santi/OneDrive/Escritorio/Level4-EDAoogle/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/santi/OneDrive/Escritorio/Level4-EDAoogle/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

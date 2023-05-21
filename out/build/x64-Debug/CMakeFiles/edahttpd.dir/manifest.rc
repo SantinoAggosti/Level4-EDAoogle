@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/santi/OneDrive/Escritorio/Level4-EDAoogle/out/build/x64-Debug/CMakeFiles/edahttpd.dir/embed.manifest"

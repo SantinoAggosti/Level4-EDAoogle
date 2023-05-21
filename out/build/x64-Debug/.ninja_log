@@ -1,0 +1,15 @@
+# ninja log v5
+12	73	0	clean	8c45b54705a541e8
+32	3363	7063303926170923	CMakeFiles/edahttpd.dir/HttpServer.cpp.obj	ff1b0820f3b127b4
+42	4269	7063303935308152	CMakeFiles/edahttpd.dir/ServeHttpRequestHandler.cpp.obj	b22050c4729edf44
+22	2792	7063303920377737	CMakeFiles/edahttpd.dir/CommandLineParser.cpp.obj	1221c7e4f8a6c5b6
+11	3481	7063303927414218	CMakeFiles/edahttpd.dir/main.cpp.obj	a5f517c0c42afb96
+56	3512	7063303927754213	CMakeFiles/edahttpd.dir/EDAoogleHttpRequestHandler.cpp.obj	9135679cf56f1e72
+4270	6639	7063303944868020	edahttpd.exe	11229197b5867be9
+18	120	0	clean	8c45b54705a541e8
+42	1400	7063311476805645	CMakeFiles/edahttpd.dir/CommandLineParser.cpp.obj	ca90636d392cd642
+75	1743	7063311480250882	CMakeFiles/edahttpd.dir/HttpServer.cpp.obj	7253b0bb361c2a21
+28	1968	7063311482505385	CMakeFiles/edahttpd.dir/main.cpp.obj	579abf3fb443224b
+100	2057	7063311483393269	CMakeFiles/edahttpd.dir/EDAoogleHttpRequestHandler.cpp.obj	22ad5ea92f2c9ee4
+88	2537	7063311488183234	CMakeFiles/edahttpd.dir/ServeHttpRequestHandler.cpp.obj	be6d7afea2961637
+2538	4821	7063311495578535	edahttpd.exe	a6221a77326b9edb
