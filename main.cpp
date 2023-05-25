@@ -8,65 +8,51 @@
  *
  */
 
-#include <iostream>
-
 #include <microhttpd.h>
-#include <sqlite3.h>
 #include "CommandLineParser.h"
 #include "HttpServer.h"
 #include "EDAoogleHttpRequestHandler.h"
+#include "sqlDataBase.h"
 
-using namespace std;
+#define N_DOCUMENTS 1284
+// Hacer una funcion que cuente la cantidad de documentos que hay en la carpeta.
+
+
 
 
 int main(int argc, const char *argv[])
 {
 
+
     /**********    CREACION DE BASE DE DATOS    **********/
-    char* errMsg = nullptr;
 
     // 0. Creacion de objeto de base de datos s1lite3
     sqlite3* db;
+    int result;
 
     // 1. Acceso a base de datos
-    int result = sqlite3_open("dataBase.db", &db);
+    cout << "1. Acceso a Base de Datos: " << endl;
+    result = sqlite3_open("dataBase.db", &db);
     if (result != SQLITE_OK) {
-        // Handle the error case
+        cout << "Fallido\n" << endl;
+        cout << "Result: " << result << endl;
+
     }
     else {
-        cout << "1. Acceso a base de datos exitoso" << endl;
+        cout << "Exitoso\n" << endl;
     }
+    //accessDataBase(db);
+    createTable(db);
+    saveData(db);
 
-    // 2.Formar un CREATE TABLE statement "Reverse Index" .
-    // Statement indica tabla de 1000 Columnas, 
-    string crearTablaSQL = "CREATE TABLE IF NOT EXISTS MyTable (";
-
-    // La primer Columan guarda cada palabra identificada a lo largo de nuestras paginas web
-
-    crearTablaSQL += "Palabra INTEGER PRIMARY KEY,";
-    for (int i = 1; i <= 1000; ++i) {
-        // Por ahora el tipo de cada columna representa el path del documento
-        crearTablaSQL += "Documento" + to_string(i) + " TEXT";
-        if (i != 1001) {
-            crearTablaSQL += ",";
-        }
-    }
-    crearTablaSQL += ");";
 
     // 3. Ejectutar el Statment guardado en el string crearTableSQL
-    result = sqlite3_exec(db, crearTablaSQL.c_str(), nullptr, nullptr, &errMsg);
-    if (result != SQLITE_OK) {
-        std::cout << "2. SQL error: " << errMsg << std::endl;
-        sqlite3_free(errMsg);
-        return 1;
-    }
-    else {
-        cout << "2. Ejecucion de Statement Exitoso" << endl;
-    }
 
 
-
-    // . Cerrar el acceso a la base de datos
+    // 4. Iterar a lo largo de los documentos, aplicarles la funcion PASO1, iterar por
+    // la estructura de datos recibida, y guardar los datos en SQL db.
+    // 
+    // Final. Cerrar el acceso a la base de datos
     sqlite3_close(db);
 
 
@@ -109,3 +95,4 @@ int main(int argc, const char *argv[])
         cout << "Stopping server..." << endl;
     }
 }
+
